@@ -1,0 +1,28 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+body{
+    background: black;
+}
+.profile{
+    color: yellow;
+    font-family: 'Bangers', sans-serif;
+    font-weight: 600;
+    letter-spacing: .5rem;
+}
+p{
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+img.profile{
+    background: none;
+}
+
+h3.bio{
+    font-family: 'Bangers', sans-serif;
+    color: yellow;
+    font-weight: 600;
+}

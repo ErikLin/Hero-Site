@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Stoke:400,300');
+
+body{
+    background: #ffffff;
+}
+.profile{
+    color: black;
+    font-family: 'Stoke', serif;
+}
+h1{
+    letter-spacing: -.1em;
+    text-shadow: 5px 5px 20px gray;
+}
+p.profile{
+    background: none;
+    border: none;
+    font-family: sans-serif;
+}
+img.profile{
+    background: none;
+}
+h3.bio{
+    color: blue;
+    font-weight: 400;
+    display: block;
+    text-decoration: underline;
+}
+
+
+span:nth-child(1){
+    color: #3466E1;
+}
+span:nth-child(2){
+    color: #E52034;
+}
+span:nth-child(3){
+    color: #FEB413;
+}
+span:nth-child(4){
+    color: #3466E1;
+}
+span:nth-child(5){
+    color: #01A415;
+}
+span:nth-child(6){
+    width: .3em;
+    display: inline-block
+}
+
+span:nth-child(7){
+    color: #3466E1;
+}
+span:nth-child(8){
+    color: #E52034;
+}
+span:nth-child(9){
+    color: #FEB413;
+}
+span:nth-child(10){
+    color: #3466E1;
+}
+span:nth-child(11){
+    color: #01A415;
+}

@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Coda:800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background: #02010B;
+}
+.profile{
+    color: black;
+    font-family: 'Coda', sans-serif;
+    font-weight: 600;
+    
+}
+
+h1.profile{
+    display:block;
+    transform:scale(1,2); /* W3C */
+    -webkit-transform:scale(1,2); /* Safari and Chrome */
+    -moz-transform:scale(1,2); /* Firefox */
+    -ms-transform:scale(1,2); /* IE 9 */
+    -o-transform:scale(1,2); /* Opera */
+    
+    color: white;
+    line-height: 2em;
+    font-size: 6rem;
+    
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+h3.bio.profile{
+    color: white;
+    margin-bottom: 0;
+}
+p{
+    background: none;
+    border: solid 6px #ED64F9;
+    box-shadow: 0 0 12px #ED64F9;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    
+    
+    
+}
+img.profile{
+    background: none;
+}
+
+h3.bio{
+    font-family: 'Oswald', sans-serif;
+    color: #E7BBD4;
+    font-weight: 600;
+}

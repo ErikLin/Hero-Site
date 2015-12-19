@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background: #777374;
+}
+.profile{
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 100;
+}
+p{
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    
+}
+img.profile{
+    background: none;
+}
+
+h3.bio{
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    font-weight: 600;
+}
+#fullbody{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    z-index: -1;
+}
+
+@media (max-width: 699px) {
+    /* up to 699px wide */
+    #fullbody{
+        display: none;
+    }
+}

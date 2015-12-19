@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body{
+    background: #A9A9A9;
+}
+.profile{
+    font-family: 'Abel', sans-serif;
+}
+p{
+    background: none;
+    border: none;
+}
+img.profile{
+    background: none;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}

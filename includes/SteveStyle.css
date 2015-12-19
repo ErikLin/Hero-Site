@@ -1,0 +1,123 @@
+@charset "UTF-8";
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: none;
+    background-attachment: fixed;
+}
+
+div.divHOME:Hover h2.home,
+a div:Hover h2.headICON {
+    visibility: visible;
+}
+
+a {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*--Profiles---------------------------------------------------------------------------------------------------------------------------------*/
+
+p {
+    color: black;
+    background: white;
+    border: solid white 2px;
+}
+
+.why {
+    position: relative;
+    overflow: auto;
+}
+
+.bio {
+    margin-bottom: 5rem;
+}
+
+h3.bio {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40pt;
+    line-height: 2em;
+}
+
+img.profile {
+    width: 60%;
+    max-width: 25rem;
+    float: left;
+    margin: 15px 20px 15px -13rem;
+    padding: 2rem;
+    background: white;
+}
+
+img.right {
+    float: right;
+    margin: 15px -13rem 15px 20px;
+}
+
+
+/*---steve profile--------------------------------------------------------------------------------------------------*/
+
+h1.steve {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 2em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    color: black;
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 699px) {
+    /* up to 699px wide */
+    html {
+        font-size: 14px;
+    }
+    img.profile {
+        width: 100%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem;
+    }
+    p {
+        width: 95%;
+        max-width: none;
+        padding: 1.3rem;
+    }
+}
+
+@media (min-width: 700px) {
+    /* 700px wide and up */
+    html {
+        font-size: 16px;
+    }
+}
